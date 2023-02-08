@@ -1,11 +1,11 @@
 @font-face {
     font-family: FiraGo;
-    src: url(project4/static/fonts/FiraGO-Regular.ttf);
+    src: url(/project4/static/fonts/FiraGO-Regular.ttf);
 }
 
 @font-face {
     font-family: Malayalam MN;
-    src: url(project4/static/fonts/Malayalam\ MN.ttc);
+    src: url(/project4/static/fonts/Malayalam\ MN.ttc);
 }
 html, body {
     box-sizing: border-box;
