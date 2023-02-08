@@ -1,0 +1,479 @@
+@font-face {
+    font-family: FiraGo;
+    src: url(/static/fonts/FiraGO-Regular.ttf);
+}
+
+@font-face {
+    font-family: Malayalam MN;
+    src: url(/static/fonts/Malayalam\ MN.ttc);
+}
+html, body {
+    box-sizing: border-box;
+    color:#000;
+    min-height: 200vh;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "firago";
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+/* Header styling */
+header {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+a:any-link {
+    color: #000;
+}
+
+
+nav {
+    margin: 0 126px;
+    padding: 25px 0;
+}
+
+nav div.logo {
+    width: 33%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 51px;
+}
+
+div.logo, div.nav, div.nav ul, nav li {
+    display: inline-block;
+}
+nav .logo a.logo-title {
+    line-height: 37px;
+    font-size: 26px;
+    font-family: "Malayalam MN", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a, .btn {
+    text-decoration: none;
+
+}
+
+nav .nav a {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+div.my-acc {
+    float: right;
+}
+
+div.my-acc a {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+/* Header styling end*/
+
+/*Home Page styling*/
+
+main {
+    display: block;
+    margin: 72px 126px 0 126px;
+}
+
+main h1.title {
+    line-height: 28px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 65px;
+}
+
+.container .cards {
+    border: 1px solid #000;
+    display: inline-block;
+    width: 80%;
+}
+.container .product {
+    display: inline-block;
+    width: 33%;
+}
+.cards .inner {
+    padding: 11px;
+}
+
+.cards .inner .product-title {
+    font-family: poppins;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.cards .inner .description {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.cards .inner div.about {
+    margin-left: 15px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.product .see-more {
+    font-family: poppins;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 6px 26px;
+    margin-top: 23px;
+    margin-right: 19%;
+    float: right;
+}
+
+.product img.product-img {
+    width: 100%;
+    height: auto;
+    max-width: 311px;
+}
+
+.product-features {
+    margin-top: 62px;
+}
+
+.product-features ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.product-features .tab {
+    width: 33%;
+    display: inline-block;
+}
+
+
+/*Home Page styling end*/
+
+
+/* about us page styling*/
+
+main h1.about-title {
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+    font-weight: 600;
+    color: #7D0000;
+    letter-spacing: 0.03em;
+    line-height: 47px;
+}
+
+div.content {
+    margin-top: 115px;
+}
+
+.left-content .about-us-text {
+    margin-bottom: 89px;
+    font-weight: 600;
+    line-height: 165%;
+}
+
+.left-content address {
+    font-weight: 400;
+    text-decoration-line: underline;
+    line-height: 29px;
+    text-align: right;
+
+}
+
+.left-content address, .left-content .about-us-text {
+    font-family: 'Andada Pro', serif;
+    letter-spacing: 0.03em;
+    font-size: 25px;
+    text-transform: capitalize;
+
+}
+
+div.about-us-content {
+    display: inline-block;
+}
+div.left-content {
+    width: 45%;
+}
+
+div.right-content {
+    float: right;
+    width: 50%;
+    margin-top: 80px;
+}
+
+/* about us page styling end*/
+
+/* blog page*/
+.top-navigation {
+    min-height: 50px;
+}
+.sub-navigation h2 {
+    font-family: "firago";
+    display: inline-block;
+    font-weight: 400;
+}
+
+form.search-bar {
+    float: right;
+    position: relative;
+}
+
+form input[type="search"]::placeholder {
+    font-family: "firago";
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 14px;
+    font-weight: 350;
+    padding: 17px 0;
+}
+
+form input[type="search"] {
+    border: 1px solid #000;
+    width: 370px;
+    padding: 15px 60px;
+    border-radius: 2px;
+}
+
+i.search-icon {
+    width: 26px;
+    height: 26px;
+    font-size: 16px;
+    position: absolute;
+    transform: translate(10px, 10px);
+    background-image: url(static/images/search.png);
+}
+
+
+.category-nav ul {
+    list-style-type: none;
+}
+
+.category-nav ul li a {
+    text-decoration: none;
+    font-family: "Firago";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.category-nav {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.category-nav li {
+    display: inline-block;
+    margin-left: 65px;
+}
+
+.container .container-box {
+    background-color: #E5EBE5;
+    border-radius: 0px 14px 14px 0px;
+    padding: 38px 16px;
+    margin-left: 26%;
+}
+
+.container img.container-img {
+    float: left;
+}
+
+.container-box h3 {
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.container-box p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #474747;
+}
+
+.container-box p, .container-box h3 {
+    font-family: "Firago";
+}
+
+.blog a.see-more-btn {
+    padding: 15px 28px;
+    font-family: "Firago";
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    float: right;
+    margin-top: 14px;
+}
+
+.container {
+    margin-bottom: 10%;
+}
+
+/* End*/
+
+
+/* Contact Page*/
+
+main h1.contact-title {
+    color: #7D0000;
+    font-family: 'Andada Pro', serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 00.03em;
+    line-height: 47px;
+}
+
+div.contact-box {
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.contact-info {
+    list-style-type: none;
+    font-family: 'Andada Pro', serif;
+    color: #0B253E;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    width: 45%;
+}
+
+ul.contact-info li.email {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul.contact-info li:first-child {
+    margin-bottom: 34px;
+}
+
+div.map {
+    margin-top: 130px;
+}
+
+div.map iframe {
+    display: block;
+    margin: 0 auto;
+    width: 908px;
+    border-radius: 16px;
+}
+
+/* Contact Page end */
+
+/* my acc */
+
+div.user-profile {
+     margin-top: 160px;
+}
+
+h2.username {
+    font-size: 30px;
+    font-family: "poppins";
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    margin-bottom: 14px;
+}
+
+span.role { 
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #546CCC;
+}
+
+div.profile-info {
+    display: inline-block;
+    margin-left: 68px;
+}
+
+.prof-nav ul li {
+    list-style-type: none;
+}
+
+div.desc {
+    margin-top: 96px;
+}
+
+div.prof-nav li a:any-link {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    border-bottom: 1px solid #7D0000;
+    padding-bottom: 16px;
+}
+
+.profile-contact {
+    margin-top: 58px;
+}
+
+.profile-contact table th, .profile-contact table td {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+.profile-contact table td {
+    font-weight: 500;
+}
+
+.profile-contact table th {
+    font-weight: 700;
+    margin-right: 163px;
+}
+
+.profile-contact table {
+    display: block;
+}
+
+.profile-contact table tr {
+    display: block;
+    margin-bottom: 30px;
+}
+
+a.profile-edit {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    background-color: #87AC87;
+    border-radius: 10px;
+    float: right;
+    margin-top: 25px;
+}
