@@ -259,7 +259,6 @@ i.search-icon {
     font-size: 16px;
     position: absolute;
     transform: translate(10px, 10px);
-    background-image: url(static/images/search.png);
 }
 
 
