@@ -477,3 +477,14 @@ a.profile-edit {
     float: right;
     margin-top: 25px;
 }
+
+
+.footer {
+    margin-top: 30px;
+    text-align: right;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 350;
+    line-height: 132%;
+    text-decoration-line: underline;
+}
